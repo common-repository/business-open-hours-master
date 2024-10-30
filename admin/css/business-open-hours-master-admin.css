@@ -1,0 +1,155 @@
+/*** jQuery UI Timepicker Style Overrides  ***/
+#ui-timepicker-div {
+    background-color: #585858;
+}
+#ui-timepicker-div .ui-timepicker-title {
+	color:#fff;
+}
+#ui-timepicker-div a.ui-state-default {
+	color:#eee;
+}
+#ui-timepicker-div a.ui-state-active {
+	color:#72FF49 !important;
+	font-weight:bold;
+}
+#ui-timepicker-div th.periods {
+	color:#fff;
+}
+#ui-timepicker-div .ui-timepicker-table td {
+    background-color: #676767;
+}
+
+/***** Main Styles *****/
+
+/*** Left Options Panel Styles ***/
+.bohm-page-left {
+  float: left;
+}
+td.td-bohm-regualr-hours {
+  width: 680px;
+  height: 105px;
+}
+tr.tr-bohm-regualr-hours {
+  display: block;
+  margin-bottom: 10px;
+  background-color: #F9AEAE;
+}
+tr.tr-bohm-regualr-hours.ui-sortable-handle {
+  background-color: #ADE4A2;
+}
+tr.tr-bohm-regualr-hours.ui-sortable-handle.ui-sortable-helper {
+  background-color: #F9BA46;
+}
+.bohm-time-set-control.bohm-time-set-main {
+  padding-top: 5px;
+}
+.time-set-control.time-set-detail .time-range{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.time-set-control.time-set-detail {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.days input.bohm-field {
+  margin-right: 15px;
+}
+.bohm-grabber {
+  width: 60px;
+  float: left;
+  height: 105px;
+  background-color: #339EBF;
+  margin-right: 10px;
+  cursor: move;
+}
+.bohm-grabber img {
+  position: relative;
+  top: 39%;
+  left: 30%;
+}
+.days .bohm-day {
+  display: inline-block;
+}
+.bohm-time-set-control.bohm-time-set-main div {
+  display: inline-block;
+}
+.bohm-time-set-control-title {
+  padding-right: 15px;
+}
+button.bohm-time-set-main-delete {
+  float: right;
+  border: none;
+  background-color: #E86565;
+  color: #FFF;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+button.bohm-time-set-main-delete:hover {
+  background-color: #FF2B2B;
+}
+.bohm-regular-hours-days {
+    padding-top: 5px;
+}
+.bohm-color-codes div {
+  display: inline-block;
+}
+.bohm-color-codes p {
+  margin: 0;
+}
+.bohm-color-codes {
+  margin-bottom: 9px;
+}
+.bohm-not-saved {
+  background-color: #F9AEAE;
+  padding: 5px 10px;
+}
+.bohm-saved {
+  background-color: #ADE4A2;
+  padding: 5px 10px;
+}
+
+/*** Right Preview Styles ***/
+.bohm-page-right {
+  float: right;
+  position: relative;
+  right: 15%;
+}
+.bohm-hours-display {
+  border: 1px solid #000;
+  padding: 10px;
+}
+.bohm-regular-hours-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.bohm-regular-hours-detail {
+  font-size: 14px;
+}
+.bohm-hours-display .bohm-regular-hours-title {
+  margin-top: 10px;
+}
+.bohm-hours-display .bohm-regular-hours-title:first-child {
+  margin-top: 0;
+}
+.bohm-page-right {
+  width: 200px;
+}
+.bohm-shortcodes-highlight {
+background-color:#ffff00;	
+}
+
+/*** Media Queries ***/
+
+@media (max-width: 1300px) {
+.bohm-page-right {
+  right: 0;
+}
+
+@media (max-width: 1100px) {
+.bohm-page-left, .bohm-page-right {
+  float: none;
+}
+	
+}
+	
+}
